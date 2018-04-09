@@ -2,6 +2,7 @@ body{
   font-size: 14px;
 }
 
+/* special formatting for fixed "Navigation Bar" at the top of the page*/
 nav {
   background-color: red;
   height: 100px;
@@ -21,6 +22,7 @@ h1 {
   font-size: 2em;
 }
 
+/* formatting for "example" content*/
 .example, h3 {
   padding-top: 30px;
   text-align: center;
@@ -30,15 +32,16 @@ h3 {
   font-size: 1.3em;
 }
 
+/* Specific changes to "element" contents */
 .element {
   margin-top: 500px auto;
   background-color: green;
   height: 100px;
   margin: 10px 0;
-
   width: 100%;
 }
 
+/* Specific changes to "feature" contents */
 #feature {
   background-color: blue;
 }
